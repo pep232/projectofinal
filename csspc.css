@@ -1,4 +1,4 @@
-
+@media screen and (max-width: 1280px){
 body{
 background-repeat: no-repeat;
 background-size:780px 609px;
@@ -39,3 +39,47 @@ float:left;
 	color: red;
 }
 video{background-color: silver;}
+}
+
+@media screen and (max-width: 600px){
+body{
+background-repeat: no-repeat;
+background-size:780px 609px;
+}
+.cuerpo{
+	position:relative;
+float:center;
+}
+.publicidad{
+height:520px;
+width:336px;
+background-color:black;
+position:fixed;
+float:top;
+color:white;
+text-align:center;
+padding-bottom: 100px;
+}
+.noticias{
+	position:fidex;
+float:left;
+width:700px;
+font-size:20px;
+}
+.news1{
+	position:fidex;
+float:left;
+	width:700px;
+	font-size:20px;
+}
+.news2{
+	position:fidex;
+float:left;
+	width:700px;
+	font-size:20px;
+}
+.titulos{
+	color: red;
+}
+video{background-color: silver;}
+}
